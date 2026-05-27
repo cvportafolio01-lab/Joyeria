@@ -42,6 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCartDisplay();
 
     applyVendorData();
+
+    /* =========================
+       🔥 WHATSAPP GLOBAL SYSTEM
+    ========================= */
+    initWhatsAppSystem();
 });
 
 /* =========================
@@ -417,14 +422,13 @@ function showNotification(title, message, type = 'info') {
 
 
 
-
 function applyVendorData() {
 
     const v = window.VENDOR;
     if (!v) return;
 
     /* =========================
-       PAGE TITLE
+       PAGE TITLE (SEO)
     ========================= */
 
     const title = document.getElementById("page-title");
@@ -444,21 +448,33 @@ function applyVendorData() {
     setText("[data-bind='deliveryZone']", v.deliveryZone);
 
     /* =========================
-       WHATSAPP
+       WHATSAPP (TODOS LOS BOTONES)
     ========================= */
 
     document.querySelectorAll("[data-whatsapp]").forEach(el => {
 
         if (v.whatsapp) {
-
             el.href = `https://wa.me/${v.whatsapp}`;
             el.target = "_blank";
             el.rel = "noopener noreferrer";
-
         } else {
-
             el.style.display = "none";
+        }
 
+    });
+
+    /* =========================
+       WHATSAPP FLOAT BUTTON
+    ========================= */
+
+    document.querySelectorAll("[data-whatsapp-float]").forEach(el => {
+
+        if (v.whatsapp) {
+            el.href = `https://wa.me/${v.whatsapp}`;
+            el.target = "_blank";
+            el.rel = "noopener noreferrer";
+        } else {
+            el.style.display = "none";
         }
 
     });
@@ -470,13 +486,9 @@ function applyVendorData() {
     document.querySelectorAll("[data-phone-link]").forEach(el => {
 
         if (v.phone) {
-
             el.href = `tel:${v.phone}`;
-
         } else {
-
             el.style.display = "none";
-
         }
 
     });
@@ -488,15 +500,11 @@ function applyVendorData() {
     document.querySelectorAll("[data-instagram]").forEach(el => {
 
         if (v.instagram) {
-
             el.href = v.instagram;
             el.target = "_blank";
             el.rel = "noopener noreferrer";
-
         } else {
-
             el.style.display = "none";
-
         }
 
     });
@@ -508,15 +516,11 @@ function applyVendorData() {
     document.querySelectorAll("[data-facebook]").forEach(el => {
 
         if (v.facebook) {
-
             el.href = v.facebook;
             el.target = "_blank";
             el.rel = "noopener noreferrer";
-
         } else {
-
             el.style.display = "none";
-
         }
 
     });
@@ -528,44 +532,14 @@ function applyVendorData() {
     document.querySelectorAll("[data-tiktok]").forEach(el => {
 
         if (v.tiktok) {
-
             el.href = v.tiktok;
             el.target = "_blank";
             el.rel = "noopener noreferrer";
-
         } else {
-
             el.style.display = "none";
-
         }
 
     });
-
-
-
-
-
-
-/* =========================
-   WHATSAPP FLOAT BUTTON
-========================= */
-
-document.querySelectorAll("[data-whatsapp-float]").forEach(el => {
-
-    if (v.whatsapp) {
-
-        el.href = `https://wa.me/${v.whatsapp}`;
-        el.target = "_blank";
-        el.rel = "noopener noreferrer";
-
-    } else {
-
-        el.style.display = "none";
-
-    }
-
-});
-
 
     /* =========================
        GOOGLE MAPS
@@ -592,15 +566,10 @@ document.querySelectorAll("[data-whatsapp-float]").forEach(el => {
 function setText(selector, value) {
 
     document.querySelectorAll(selector).forEach(el => {
-
         el.textContent = value || "";
-
     });
 
 }
-
-
-
 function openImage(src){
 
     const modal = document.getElementById("imageModal");
