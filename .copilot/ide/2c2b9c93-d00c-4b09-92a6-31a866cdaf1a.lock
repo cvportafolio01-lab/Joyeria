@@ -1,0 +1,14 @@
+{
+  "socketPath": "\\\\.\\pipe\\mcp-ce7ce974-0ae4-4e4d-8c75-51cfb15e5aaf.sock",
+  "scheme": "pipe",
+  "headers": {
+    "Authorization": "Nonce 3288f822-54c4-449d-8a41-1baa18037db5"
+  },
+  "pid": 2732,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1771303273781,
+  "workspaceFolders": [
+    "c:\\Users\\eriik\\Tefin inmobiliaria 2"
+  ],
+  "isTrusted": true
+}

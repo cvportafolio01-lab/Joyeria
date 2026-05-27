@@ -1,0 +1,2528 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">vendedor | Joyeria Argento 2026</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <!-- WhatsApp Floating Button (DINÁMICO) -->
+
+<a data-whatsapp-float class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+    <!-- Shopping Cart Icon -->
+    <button class="cart-float" onclick="toggleCart()" title="Ver Carrito">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-badge" id="cartCount">0</span>
+    </button>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+    <div class="container">
+
+        <!-- LOGO -->
+        <a class="navbar-brand" href="#hero">
+
+            <i class="fas fa-gem me-2"></i>
+
+            <span class="brand-text">
+                Joyeria Argento 2026
+            </span>
+
+        </a>
+
+      
+        <!-- MENU -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto align-items-center">
+
+                <!-- INICIO -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">
+                        Inicio
+                    </a>
+                </li>
+
+                <!-- TIENDA DROPDOWN -->
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle"
+                        href="#"
+                        id="tiendaDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown">
+
+                        Tienda
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-dark">
+
+                        <li>
+                            <a class="dropdown-item" href="#gargantillas">
+                                Gargantillas
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#dijes">
+                                Dijes
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#aretes">
+                                Aretes
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#pulseras">
+                                Pulseras
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#anillos">
+                                Anillos
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <!-- MENU VISUAL -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#categorias">
+                        Categorías
+                    </a>
+                </li>
+
+                <!-- CONTACTO -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        Contacto
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+  
+
+<section id="inicio" class="portada-simple">
+
+    <div class="portada-fondo"></div>
+
+    <img class="portada-principal" src="imagenes/portada1.webp" alt="Argento">
+
+    <div class="texto-marca">ARGENTO</div>
+    <div class="texto-catalogo">2026</div>
+
+</section>
+
+
+
+<!-- MENU CATEGORIAS -->
+<section id="categorias" class="categorias-menu section-padding">
+<div class="container">
+
+    <div class="text-center mb-5">
+        <h2 class="section-title-pink">Explora el Catálogo</h2>
+        <div class="title-decoration-pink mx-auto"></div>
+
+        <p class="section-subtitle">
+            Selecciona una categoría
+        </p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- GARGANTILLAS -->
+        <div class="col-lg-4 col-md-6">
+            <div class="menu-card">
+
+                <img src="imagenes/portada2.webp">
+
+                <div class="menu-overlay">
+
+                    <h3>Gargantillas</h3>
+
+                    <a href="#gargantillas" class="menu-btn">
+                        Ver colección
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- DIJES -->
+        <div class="col-lg-4 col-md-6">
+            <div class="menu-card">
+
+                <img src="imagenes/portada3.webp">
+
+                <div class="menu-overlay">
+
+                    <h3>Dijes</h3>
+
+                    <a href="#dijes" class="menu-btn">
+                        Ver colección
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ARETES -->
+        <div class="col-lg-4 col-md-6">
+            <div class="menu-card">
+
+                <img src="imagenes/portada5.webp">
+
+                <div class="menu-overlay">
+
+                    <h3>Aretes</h3>
+
+                    <a href="#aretes" class="menu-btn">
+                        Ver colección
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- PULSERAS -->
+        <div class="col-lg-6 col-md-6">
+            <div class="menu-card">
+
+                <img src="imagenes/portada6.webp">
+
+                <div class="menu-overlay">
+
+                    <h3>Pulseras</h3>
+
+                    <a href="#pulseras" class="menu-btn">
+                        Ver colección
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ANILLOS -->
+        <div class="col-lg-6 col-md-6">
+            <div class="menu-card">
+
+                <img src="imagenes/portada8.webp">
+
+                <div class="menu-overlay">
+
+                    <h3>Anillos</h3>
+
+                    <a href="#anillos" class="menu-btn">
+                        Ver colección
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<div class="promo-banner">
+
+    <h2>💎 PROMOCIÓN ESPECIAL – JUNIO (DÍA DEL PADRE)</h2>
+
+    <p>
+        Este mes disfruta de un 
+        <span class="promo-highlight">30% de descuento</span>
+        en tu compra.
+    </p>
+
+    <p><strong>🛍️ Proceso de compra:</strong></p>
+
+    <ul>
+        <li>✔ Agrega tus productos al carrito</li>
+        <li>✔ Envía tu pedido por WhatsApp</li>
+        <li>✔ Una asesora te guía personalmente</li>
+    </ul>
+
+    <p>
+        💬 <strong>Importante:</strong><br>
+        El pago no se realiza en esta página.  
+        Se finaliza en una plataforma externa segura con apoyo de una asesora.
+    </p>
+
+    <p>
+        ✨ Regístrate antes de comprar y obtén tu 30% de descuento.
+    </p>
+
+    <p>
+        📲 Pregunta directamente a tu asesora por WhatsApp para registrarte.
+    </p>
+
+    <p>
+        🎁 Promociones especiales del mes disponibles solo consultando por WhatsApp.
+    </p>
+
+    <!-- BOTÓN DINÁMICO -->
+    <a data-whatsapp class="promo-whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+        Hablar con asesora
+    </a>
+
+</div>
+
+
+
+<!-- Calidad Argento -->
+<section class="section-padding bg-light">
+
+    <div class="container">
+
+        <div class="row justify-content-center text-center">
+
+            <div class="col-lg-10">
+
+                <span class="award-tag mb-3 d-inline-block">
+                    <i class="fas fa-crown me-2"></i>Joyería Argento
+                </span>
+
+                <h2 class="section-title-pink mb-3">
+                    Calidad, Elegancia y Exclusividad
+                </h2>
+
+                <div class="title-decoration-pink mx-auto mb-4"></div>
+
+                <p class="lead">
+                    En Argento seleccionamos cuidadosamente cada pieza para ofrecer
+                    joyería con acabados elegantes, diseños modernos y detalles únicos
+                    que resaltan la belleza y personalidad de cada cliente.
+                </p>
+
+                <p class="mb-4">
+                    Nuestra colección combina sofisticación, brillo y excelente calidad
+                    en materiales, creando accesorios ideales para cualquier ocasión.
+                    Cada diseño refleja estilo, lujo y distinción, inspirados en las
+                    últimas tendencias de alta joyería.
+                </p>
+
+                <div class="row mt-5">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="feature-box">
+                            <i class="fas fa-gem fa-2x mb-3 text-pink"></i>
+                            <h5>Diseños Exclusivos</h5>
+                            <p>
+                                Piezas modernas y elegantes pensadas para destacar.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="feature-box">
+                            <i class="fas fa-star fa-2x mb-3 text-pink"></i>
+                            <h5>Alta Calidad</h5>
+                            <p>
+                                Joyas cuidadosamente elaboradas con acabados premium.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="feature-box">
+                            <i class="fas fa-heart fa-2x mb-3 text-pink"></i>
+                            <h5>Elegancia Atemporal</h5>
+                            <p>
+                                Accesorios diseñados para lucir sofisticados en todo momento.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- GARGANTILLAS -->
+<section id="gargantillas">
+
+<div class="text-center mb-5">
+    <h2 class="section-title-pink">Catálogo Gargantillas</h2>
+    <div class="title-decoration-pink mx-auto"></div>
+
+    <p class="section-subtitle">
+        Descubre piezas elegantes y exclusivas diseñadas para resaltar tu estilo ✨
+    </p>
+</div>
+
+<div class="row g-4">
+
+    <!-- PRODUCTO 1 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/gargantilla1.webp" onclick="openImage(this.src)">
+                <span class="product-badge">Nuevo</span>
+            </div>
+
+            <div class="product-info">
+                <h4>Gargantilla Mariposa Tornasol</h4>
+                <p>
+                    Gargantilla silueta coronilla mariposa con esfera tornasol.
+                    <br><strong>Código:</strong> 3GZTFU000001
+                    <br><strong>Peso:</strong> 3 GR
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,545.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Gargantilla Mariposa Tornasol', 1545, '3GZTFU000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTO 2 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/gargantilla2.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Gargantilla Guirnalda Hojas</h4>
+                <p>
+                    Guirnalda hojas con R-2 blanco.
+                    <br><strong>Código:</strong> 3GZGGB000006
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,680.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Gargantilla Guirnalda Hojas', 1680, '3GZGGB000006')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTO 3 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/gargantilla3.webp" onclick="openImage(this.src)">
+                <span class="product-badge">Popular</span>
+            </div>
+
+            <div class="product-info">
+                <h4>Coordinado Mariposa Corazón</h4>
+                <p>
+                    Mariposa alas corazón blanco.
+                    <br><strong>Código:</strong> 1JZPMB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$720.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Coordinado Mariposa Corazón', 720, '1JZPMB000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTO 4 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/gargantilla4.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Gargantilla Luna Saturno</h4>
+                <p>
+                    Luna y corazón ópalo blanco.
+                    <br><strong>Código:</strong> 3GZTXB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,545.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Gargantilla Luna Saturno', 1545, '3GZTXB000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTO 5 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/gargantilla5.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Gargantilla Abeja Ópalo</h4>
+                <p>
+                    Abeja ópalo blanco.
+                    <br><strong>Código:</strong> 3GZWMB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$810.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Gargantilla Abeja Ópalo', 810, '3GZWMB000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTO 6 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/gargantilla6.webp" onclick="openImage(this.src)">
+                <span class="product-badge">Exclusivo</span>
+            </div>
+
+            <div class="product-info">
+                <h4>Coordinado Abeja Aqua</h4>
+                <p>
+                    Abeja con acabado aqua.
+                    <br><strong>Código:</strong> 1JZUMW000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,200.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Coordinado Abeja Aqua', 1200, '1JZUMW000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTO 7 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/gargantilla7.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Gargantilla Solitario Corazón</h4>
+                <p>
+                    <br><strong>Código:</strong> 3GZWZB000005
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,545.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Gargantilla Solitario Corazón', 1545, '3GZWZB000005')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTO 8 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/gargantilla8.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Gargantilla Tres Flor Estella</h4>
+                <p>
+                    <br><strong>Código:</strong> 3GZUWB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,320.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Gargantilla Tres Flor Estella', 1320, '3GZUWB000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTO 9 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/gargantilla9.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Gargantilla Solitario Corazón Rectos</h4>
+                <p>
+                    <br><strong>Código:</strong> 3GZWZB000004
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,320.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Gargantilla Solitario Corazón Rectos', 1320, '3GZWZB000004')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+>
+
+
+
+
+<!-- =========================
+     SECCIÓN DIJES
+========================= -->
+<!-- DIJES -->
+<section id="dijes">
+
+<div class="text-center mb-5">
+    <h2 class="section-title-pink">Catálogo Dijes</h2>
+    <div class="title-decoration-pink mx-auto"></div>
+
+    <p class="section-subtitle">
+        Dijes exclusivos con diseños elegantes y simbólicos ✨
+    </p>
+</div>
+
+<div class="row g-4">
+
+    <!-- DIJE 1 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije1.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Dije Árbol de la Vida</h4>
+
+                <p>
+                    Esotérico árbol de la vida Love Life blanco.
+                    <br><strong>Código:</strong> 3DM00002
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,500.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Dije Árbol de la Vida', 1500, '3DM00002')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 2 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije2.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Dije Cruz Baguette Mini</h4>
+
+                <p>
+                    Cruz baguette mini R-2.
+                    <br><strong>Código:</strong> 1DZ00411
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$690.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Dije Cruz Baguette Mini', 690, '1DZ00411')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 3 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije3.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Dije Corazón Mini Lado</h4>
+
+                <p>
+                    Silueta corazón mini R-6 blanco.
+                    <br><strong>Código:</strong> 3DZTZB000004
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$675.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Dije Corazón Mini Lado', 675, '3DZTZB000004')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 4 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije4.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Media Luna Compacta</h4>
+
+                <p>
+                    Coordinado media luna compacta R-2.5.
+                    <br><strong>Código:</strong> 1JZPLB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$870.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Media Luna Compacta', 870, '1JZPLB000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 5 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije5.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Micropavé Roseta Girasol</h4>
+
+                <p>
+                    Coordinado girasol blanco micropavé.
+                    <br><strong>Código:</strong> 3JMRGB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,410.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Micropavé Roseta Girasol', 1410, '3JMRGB000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 6 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije6.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Dije Catarina Naranja</h4>
+
+                <p>
+                    Diseño catarina color naranja.
+                    <br><strong>Código:</strong> 1DM00058
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$540.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Dije Catarina Naranja', 540, '1DM00058')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 7 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije7.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Coordinado Cuadrado Verde</h4>
+
+                <p>
+                    Cuadrado con uñas rígido verde.
+                    <br><strong>Código:</strong> 1JZUCV000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$720.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Coordinado Cuadrado Verde', 720, '1JZUCV000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 8 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije8.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Dije Corazón Rectos</h4>
+
+                <p>
+                    Silueta corazón munición rectos blancos.
+                    <br><strong>Código:</strong> 3DZTZB000002
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,320.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Dije Corazón Rectos', 1320, '3DZTZB000002')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 9 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije9.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Dije Corazón Micropavé</h4>
+
+                <p>
+                    Dos filas micropavé blanco.
+                    <br><strong>Código:</strong> 3DMTZB000003
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$825.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Dije Corazón Micropavé', 825, '3DMTZB000003')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 10 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije10.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Corazón Dividido</h4>
+
+                <p>
+                    Compacto corazón dividido blanco.
+                    <br><strong>Código:</strong> 3DZPZB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,455.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Corazón Dividido', 1455, '3DZPZB000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+        <!-- DIJE 11 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije11.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Coordinado Flor Doble 3D</h4>
+
+                <p>
+                    Uñas R-6 flor doble blanca.
+                    <br><strong>Código:</strong> 1JZUWB000002
+                    <br><strong>*No incluye cadena</strong>
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$720.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Coordinado Flor Doble 3D', 720, '1JZUWB000002')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 12 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije12.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Coordinado Niña Combinada</h4>
+
+                <p>
+                    Niña combinada plana blanco.
+                    <br><strong>Código:</strong> 1JZNPB000001
+                    <br><strong>*No incluye cadena</strong>
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$810.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Coordinado Niña Combinada', 810, '1JZNPB000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 13 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije13.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Dije Árbol de la Vida Aro</h4>
+
+                <p>
+                    Árbol de la vida aro ramas caracol.
+                    <br><strong>Código:</strong> 3DZEBB000001
+                    <br><strong>*No incluye cadena</strong>
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,095.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Dije Árbol de la Vida Aro', 1095, '3DZEBB000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DIJE 14 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/dije14.webp" onclick="openImage(this.src)">
+                <span class="product-badge">Premium</span>
+            </div>
+
+            <div class="product-info">
+                <h4>Coordinado de Esmeraldas</h4>
+
+                <p>
+                    Coordinado elegante de esmeraldas.
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$6,500.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Coordinado de Esmeraldas', 6500, 'ESMERALDA001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- =========================
+     SECCIÓN ARETES
+========================= -->
+<!-- ARETES -->
+<section id="aretes">
+
+<div class="text-center mb-5">
+    <h2 class="section-title-pink">Catálogo Aretes</h2>
+    <div class="title-decoration-pink mx-auto"></div>
+
+    <p class="section-subtitle">
+        Aretes elegantes y modernos para cualquier ocasión ✨
+    </p>
+</div>
+
+<div class="row g-4">
+
+    <!-- ARETE 1 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/arete1.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Arete Víbora Micropavé</h4>
+
+                <p>
+                    Víbora enredada ojos verdes.
+                    <br><strong>Código:</strong> 3TMPMV000002
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$2,220.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Arete Víbora Micropavé', 2220, '3TMPMV000002')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ARETE 2 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/arete2.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Arete Guirnalda R-4</h4>
+
+                <p>
+                    Diseño guirnalda elegante.
+                    <br><strong>Código:</strong> 3TZ00071
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,410.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Arete Guirnalda R-4', 1410, '3TZ00071')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARETE 3 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/arete3.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Arete Roseta Corazón</h4>
+
+                <p>
+                    Tambor verde elegante.
+                    <br><strong>Código:</strong> 3TZRZV000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$870.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Arete Roseta Corazón', 870, '3TZRZV000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARETE 4 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/arete4.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Arete Ojo con Cadena</h4>
+
+                <p>
+                    Diseño con grapa elegante.
+                    <br><strong>Código:</strong> 1TM00035
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,095.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Arete Ojo con Cadena', 1095, '1TM00035')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARETE 5 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/arete5.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Huggies Baguette</h4>
+
+                <p>
+                    Blanco con cruces.
+                    <br><strong>Código:</strong> 3ZZHGB000003
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,095.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Huggies Baguette', 1095, '3ZZHGB000003')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARETE 6 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/arete6.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Arete Dos Mariposas</h4>
+
+                <p>
+                    Alas con ópalo blanco.
+                    <br><strong>Código:</strong> 3TZGMB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,095.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Arete Dos Mariposas', 1095, '3TZGMB000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARETE 7 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/arete7.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Arete Gota con Cruz</h4>
+
+                <p>
+                    Diseño colgante elegante.
+                    <br><strong>Código:</strong> 3TMTCB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,050.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Arete Gota con Cruz', 1050, '3TMTCB000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARETE 8 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/arete8.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Arete Gota Perla Ovalo</h4>
+
+                <p>
+                    Perla #6 elegante.
+                    <br><strong>Código:</strong> 3TMGIB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,545.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Arete Gota Perla Ovalo', 1545, '3TMGIB000001')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARETE 9 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="imagenes/arete9.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Arete Gota Grande R-4</h4>
+
+                <p>
+                    Blancos elegantes.
+                    <br><strong>Código:</strong> 3TZGGB000002
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,770.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Arete Gota Grande R-4', 1770, '3TZGGB000002')">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- PULSERAS -->
+<section id="pulseras">
+
+<div class="text-center mb-5">
+    <h2 class="section-title-pink">Catálogo Pulseras</h2>
+    <div class="title-decoration-pink mx-auto"></div>
+
+    <p class="section-subtitle">
+        Pulseras elegantes y modernas diseñadas para cada estilo ✨
+    </p>
+</div>
+<div class="row g-4">
+
+    <!-- PULSERA 1 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/pulsera1.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Pulsera Guía Roseta Resaltada</h4>
+
+                <p>
+                    Diseño elegante con roseta blanca.
+                    <br><strong>Código:</strong> 3PZGRB000006
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$2,850.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Pulsera Guía Roseta Resaltada', 2850, '3PZGRB000006')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PULSERA 2 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/pulsera2.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Pulsera Mano de Fátima</h4>
+
+                <p>
+                    Esotérico con roseta blanca.
+                    <br><strong>Código:</strong> 3PMEFB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$825.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Pulsera Mano de Fátima', 825, '3PMEFB000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PULSERA 3 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/pulsera3.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Pulsera Viviana Corazón</h4>
+
+                <p>
+                    Corazón blanco elegante.
+                    <br><strong>Código:</strong> 3PNUZB000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,455.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Pulsera Viviana Corazón', 1455, '3PNUZB000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PULSERA 4 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/pulsera4.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Pulsera Colibrí Gota</h4>
+
+                <p>
+                    Diseño delicado con gota U-7.
+                    <br><strong>Código:</strong> 1PZ00068
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$1,545.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Pulsera Colibrí Gota', 1545, '1PZ00068')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PULSERA 5 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/pulsera5.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Pulsera Viaje Mundo</h4>
+
+                <p>
+                    Mundo y avión plateado.
+                    <br><strong>Código:</strong> 1PLTUQ000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$870.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Pulsera Viaje Mundo', 870, '1PLTUQ000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PULSERA 6 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/pulsera6.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Pulsera Corazón Corona</h4>
+
+                <p>
+                    Corazón con corona.
+                    <br><strong>Código:</strong> 1PZ00049
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$690.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Pulsera Corazón Corona', 690, '1PZ00049')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PULSERA 7 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/pulsera7.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Pulsera Mickey</h4>
+
+                <p>
+                    Cabeza Mickey biselada.
+                    <br><strong>Código:</strong> 1PZ00048
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$630.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Pulsera Mickey', 630, '1PZ00048')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+<!-- PULSERA 8 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera8.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Italiana con Inicial</h4>
+
+            <p>
+                Diseño italiano con inicial.
+                <br><strong>Código:</strong> 14PZ0012
+                <br><strong>Peso:</strong> 1.3 GR
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$987.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Italiana con Inicial', 987, '14PZ0012')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 9 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera9.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Italiana con Inicial</h4>
+
+            <p>
+                Diseño italiano con inicial.
+                <br><strong>Código:</strong> 14PZ0012
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$987.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Italiana con Inicial', 987, '14PZ0012')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 10 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera10.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Hoja Verde</h4>
+
+            <p>
+                Diseño hoja verde elegante.
+                <br><strong>Código:</strong> 1PM00079
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$777.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Hoja Verde', 777, '1PM00079')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 11 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera11.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Roseta y Dona de Cristal</h4>
+
+            <p>
+                Cristal elegante con roseta.
+                <br><strong>Código:</strong> 1PC00055
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$1,185.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Roseta y Dona de Cristal', 1185, '1PC00055')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 12 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera12.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Cruz con Ojo</h4>
+
+            <p>
+                Ajustable con diseño cruz.
+                <br><strong>Código:</strong> 1PZ00065
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$630.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Cruz con Ojo', 630, '1PZ00065')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 13 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera13.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Roseta Rivoli Azul Rey</h4>
+
+            <p>
+                Rectángulo azul rey.
+                <br><strong>Código:</strong> 1PCRRI000002
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$1,770.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Roseta Rivoli Azul Rey', 1770, '1PCRRI000002')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 14 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera14.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Roseta Rivoli Roja</h4>
+
+            <p>
+                Rectángulo rojo.
+                <br><strong>Código:</strong> 1PCRRJ000002
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$1,770.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Roseta Rivoli Roja', 1770, '1PCRRJ000002')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 15 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera15.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Roseta Rivoli Negra</h4>
+
+            <p>
+                Rectángulo negro.
+                <br><strong>Código:</strong> 1PCRRN000002
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$1,770.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Roseta Rivoli Negra', 1770, '1PCRRN000002')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 16 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera16.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Roseta Rivoli Montana</h4>
+
+            <p>
+                Rectángulo montana.
+                <br><strong>Código:</strong> 1PCRRO000002
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$1,770.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Roseta Rivoli Montana', 1770, '1PCRRO000002')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 17 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera17.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Roseta Rivoli Escarlata</h4>
+
+            <p>
+                Rectángulo escarlata.
+                <br><strong>Código:</strong> 1PCRRE000002
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$1,770.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Roseta Rivoli Escarlata', 1770, '1PCRRE000002')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 18 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera18.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Roseta Rivoli Rosa</h4>
+
+            <p>
+                Rectángulo rosa.
+                <br><strong>Código:</strong> 1PCRRR000002
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$1,770.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Roseta Rivoli Rosa', 1770, '1PCRRR000002')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 19 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera19.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Roseta Rivoli Tornasol</h4>
+
+            <p>
+                Rectángulo tornasol.
+                <br><strong>Código:</strong> 1PCRRU000002
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$1,770.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Roseta Rivoli Tornasol', 1770, '1PCRRU000002')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- PULSERA 20 -->
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="product-card">
+
+        <div class="product-image">
+            <img src="imagenes/pulsera20.webp" onclick="openImage(this.src)">
+        </div>
+
+        <div class="product-info">
+            <h4>Pulsera Roseta Rivoli Azul/Lila</h4>
+
+            <p>
+                Rectángulo azul/lila.
+                <br><strong>Código:</strong> 1PCRRH000002
+            </p>
+
+            <div class="product-price">
+                <span class="current-price">$1,770.00</span>
+            </div>
+
+            <button class="btn btn-pink w-100"
+                onclick="addToCart('Pulsera Roseta Rivoli Azul/Lila', 1770, '1PCRRH000002')">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+
+
+<!-- ANILLOS -->
+<section id="anillos">
+
+<div class="text-center mb-5">
+    <h2 class="section-title-pink">Catálogo Anillos</h2>
+    <div class="title-decoration-pink mx-auto"></div>
+
+    <p class="section-subtitle">
+        Anillos exclusivos con diseños sofisticados ✨
+    </p>
+</div>
+
+<div class="row g-4">
+
+    <!-- ANILLO 1 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/anillo1.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Anillo Italiano Rectángulo</h4>
+
+                <p>
+                    Diseño craquelado elegante.
+                    <br><strong>Código:</strong> 1AZ00139
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$939.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Anillo Italiano Rectángulo', 939, '1AZ00139')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ANILLO 2 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/anillo2.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Anillo Nacional Cereza</h4>
+
+                <p>
+                    Ajustable multicolor.
+                    <br><strong>Código:</strong> 1AZAFK000001
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$378.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Anillo Nacional Cereza', 378, '1AZAFK000001')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ANILLO 3 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/anillo3.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Anillo Italiano Gotas Craqueladas</h4>
+
+                <p>
+                    Diseño elegante con acabado craquelado.
+                    <br><strong>Código:</strong> 1AZ00171
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$969.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Anillo Italiano Gotas Craqueladas', 969, '1AZ00171')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ANILLO 4 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/anillo4.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Anillo Oso Micropavé</h4>
+
+                <p>
+                    Patita zirconia biselada.
+                    <br><strong>Código:</strong> 1AM000000077
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$540.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Anillo Oso Micropavé', 540, '1AM000000077')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ANILLO 5 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/anillo5.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Anillo Esmeralda Colombiana</h4>
+
+                <p>
+                    Con tres zirconias.
+                    <br><strong>Código:</strong> N/A
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$4,900.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Anillo Esmeralda Colombiana', 4900, 'ESM1')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ANILLO 6 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/anillo6.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Anillo Media Churumbela</h4>
+
+                <p>
+                    Esmeralda colombiana.
+                    <br><strong>Código:</strong> N/A
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$4,900.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Anillo Media Churumbela', 4900, 'ESM2')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ANILLO 7 -->
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="imagenes/anillo7.webp" onclick="openImage(this.src)">
+            </div>
+
+            <div class="product-info">
+                <h4>Anillo Churumbela Gruesa</h4>
+
+                <p>
+                    Diseño robusto con esmeralda colombiana.
+                    <br><strong>Código:</strong> N/A
+                </p>
+
+                <div class="product-price">
+                    <span class="current-price">$4,900.00</span>
+                </div>
+
+                <button class="btn btn-pink w-100"
+                    onclick="addToCart('Anillo Churumbela Gruesa', 4900, 'ESM3')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+    
+
+
+<!-- CONTACT / BOOKING SECTION -->
+<section id="contact" class="section-padding bg-pink-gradient">
+
+    <div class="container">
+
+        <div class="row align-items-stretch g-4">
+
+            <!-- LEFT -->
+            <div class="col-lg-5">
+
+                <div class="contact-info-box h-100">
+
+                    <h2 class="section-title-pink" data-bind="businessName">
+                        Agenda tu Cita Hoy ✨
+                    </h2>
+
+                    <div class="title-decoration-pink mb-4"></div>
+
+                    <p class="lead mb-5" data-bind="deliveryZone"></p>
+
+                    <!-- ADDRESS -->
+                    <div class="contact-item mb-4">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+
+                        <div>
+                            <strong>Dirección</strong>
+                            <p data-bind="address"></p>
+                        </div>
+                    </div>
+
+                    <!-- PHONE -->
+                    <div class="contact-item mb-4">
+
+                        <a data-phone-link class="contact-link">
+
+                            <i class="fas fa-phone contact-icon"></i>
+
+                            <div>
+                                <strong>Teléfono</strong>
+                                <p data-bind="phone"></p>
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <!-- WHATSAPP -->
+                    <div class="contact-item mb-4">
+
+                        <a data-whatsapp class="contact-link" target="_blank">
+
+                            <i class="fab fa-whatsapp contact-icon"></i>
+
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>Enviar mensaje</p>
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <!-- INSTAGRAM -->
+                    <div class="contact-item mb-4">
+
+                        <a data-instagram class="contact-link" target="_blank">
+
+                            <i class="fab fa-instagram contact-icon"></i>
+
+                            <div>
+                                <strong>Instagram</strong>
+                                <p>Ver perfil</p>
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <!-- FACEBOOK -->
+                    <div class="contact-item mb-4">
+
+                        <a data-facebook class="contact-link" target="_blank">
+
+                            <i class="fab fa-facebook contact-icon"></i>
+
+                            <div>
+                                <strong>Facebook</strong>
+                                <p>Ver página</p>
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT MAP -->
+            <div class="col-lg-7">
+
+                <div class="map-container h-100">
+
+                    <h3 class="section-title-pink text-center">
+                        Zona de Entregas
+                    </h3>
+
+                    <div class="title-decoration-pink mx-auto mb-4"></div>
+
+                    <p class="text-center mb-3" data-bind="deliveryZone"></p>
+
+                    <div class="map-responsive">
+
+                        <iframe
+                            id="map-frame"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            loading="lazy">
+                        </iframe>
+
+                    </div>
+
+                    <div class="text-center mt-4">
+
+                        <a id="maps-link"
+                           target="_blank"
+                           class="btn btn-outline-pink btn-lg">
+
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            Abrir en Google Maps
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- BRAND -->
+            <div class="col-lg-4 mb-4">
+
+                <h5 class="text-pink mb-3">
+
+                    <i class="fas fa-gem me-2"></i>
+
+                    <span data-bind="businessName"></span>
+
+                </h5>
+
+                <p data-bind="owner"></p>
+
+                <p class="mb-3">
+                    Joyeria Argento 2026
+                </p>
+
+                <!-- SOCIAL ICONS -->
+                <div class="social-links d-flex gap-3">
+
+                    <!-- INSTAGRAM -->
+                    <a data-instagram
+                       target="_blank"
+                       class="social-link">
+
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+
+                    <!-- FACEBOOK -->
+                    <a data-facebook
+                       target="_blank"
+                       class="social-link">
+
+                        <i class="fab fa-facebook"></i>
+
+                    </a>
+
+                    <!-- TIKTOK -->
+                    <a data-tiktok
+                       target="_blank"
+                       class="social-link">
+
+                        <i class="fab fa-tiktok"></i>
+
+                    </a>
+
+                    <!-- WHATSAPP -->
+                    <a data-whatsapp
+                       target="_blank"
+                       class="social-link">
+
+                        <i class="fab fa-whatsapp"></i>
+
+                    </a>
+
+                    <!-- PHONE -->
+                    <a data-phone-link
+                       class="social-link">
+
+                        <i class="fas fa-phone"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div class="col-lg-4 mb-4">
+
+                <h5 class="text-pink mb-3">
+                    Enlaces
+                </h5>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#services">Servicios</a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery">Galería</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- CONTACT -->
+            <div class="col-lg-4">
+
+                <h5 class="text-pink mb-3">
+                    Contacto
+                </h5>
+
+                <p>
+                    <i class="fas fa-map-marker-alt me-2"></i>
+                    <span data-bind="address"></span>
+                </p>
+
+                <p>
+                    <i class="fas fa-phone me-2"></i>
+                    <span data-bind="phone"></span>
+                </p>
+
+                <p>
+                    <i class="fab fa-whatsapp me-2"></i>
+                    WhatsApp disponible
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <div class="text-center">
+
+            <p class="mb-0">
+
+                &copy; 2025
+
+                <span data-bind="businessName"></span>
+
+                . Todos los derechos reservados.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- CART SIDEBAR -->
+<div id="cartSidebar" class="cart-sidebar">
+
+    <div class="cart-header">
+        <h4>Tu Carrito</h4>
+
+        <!-- 🔥 BOTÓN EXPANDIR -->
+        <button class="btn-expand-cart" onclick="toggleCartExpand()">
+            ⛶
+        </button>
+
+        <!-- CERRAR -->
+        <button class="btn-close" onclick="toggleCart()"></button>
+    </div>
+
+    <!-- 🔥 BODY (IMPORTANTE PARA SCROLL) -->
+    <div id="cartItems" class="cart-items">
+        <!-- productos se generan aquí -->
+    </div>
+
+    <!-- 🔥 FOOTER FIJO -->
+    <div class="cart-footer">
+
+        <!-- SUBTOTAL -->
+        <p>Subtotal: <span id="cartSubtotal">$0.00</span></p>
+
+        <!-- ENVÍO -->
+        <p>Envío: <span id="cartShipping">$200.00</span></p>
+
+        <!-- TOTAL -->
+        <h5>Total: <span id="cartTotal">$0.00</span></h5>
+
+        <!-- PROMO -->
+        <p class="cart-discount-note">
+            🎉 Obtén <strong>30% de descuento</strong> si te registras antes de pagar
+        </p>
+
+        <button class="btn btn-pink w-100 mt-3" onclick="checkoutWhatsApp()">
+            <i class="fab fa-whatsapp me-2"></i>
+            Pagar por WhatsApp
+        </button>
+
+    </div>
+
+</div>
+
+
+<div id="imageModal" class="image-modal">
+    <img id="modalImg">
+</div>
+<!-- Cart Overlay -->
+    <div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="vendors.js"></script>
+<script src="gallery-data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

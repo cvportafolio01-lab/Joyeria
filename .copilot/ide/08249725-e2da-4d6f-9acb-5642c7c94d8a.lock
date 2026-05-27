@@ -1,0 +1,14 @@
+{
+  "socketPath": "\\\\.\\pipe\\mcp-8f3367b5-f073-4fa9-ad5e-eafb10011747.sock",
+  "scheme": "pipe",
+  "headers": {
+    "Authorization": "Nonce cb56728b-02e4-40b9-91d9-c92a2f6a10a9"
+  },
+  "pid": 22336,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1771311071968,
+  "workspaceFolders": [
+    "c:\\Users\\eriik\\salon de bellesa"
+  ],
+  "isTrusted": true
+}
