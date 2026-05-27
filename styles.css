@@ -2211,3 +2211,291 @@ a{
 .contact-link:active{
     transform: scale(0.98);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============================================
+   MOBILE FIXES
+   AGREGA ESTO HASTA ABAJO DE TODO TU CSS
+=============================================== */
+
+@media (max-width: 768px) {
+
+    /* =========================
+       PORTADA CENTRADA
+    ========================= */
+
+    .portada-simple{
+        min-height: 85vh;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portada-principal{
+        max-width: 100%;
+        max-height: 70vh;
+
+        margin: 0 auto;
+
+        display: block;
+
+        transform: none !important;
+    }
+
+    .portada-principal:hover{
+        transform: scale(1.02) !important;
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero-section{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero-title{
+        font-size: 2.4rem;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle{
+        font-size: 1.1rem;
+    }
+
+    .hero-buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-buttons .btn-pink,
+    .hero-buttons .btn-outline-pink{
+        width: 100%;
+        max-width: 320px;
+    }
+
+    /* =========================
+       SECCIONES
+    ========================= */
+
+    .section-padding{
+        padding: 60px 20px;
+    }
+
+    .section-title-pink{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .section-subtitle{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .title-decoration-pink{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* =========================
+       PRODUCTOS
+    ========================= */
+
+    .product-card{
+        margin-bottom: 25px;
+    }
+
+    .product-image{
+        height: 280px;
+    }
+
+    .product-info{
+        text-align: center;
+    }
+
+    .product-info p{
+        min-height: auto;
+    }
+
+    /* =========================
+       FILTROS
+    ========================= */
+
+    .filter-buttons{
+        justify-content: center;
+    }
+
+    .filter-btn{
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* =========================
+       GALERÍA
+    ========================= */
+
+    .gallery-item{
+        height: 300px;
+    }
+
+    /* =========================
+       PROMO CARD
+    ========================= */
+
+    .promo-banner{
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .promo-banner ul{
+        text-align: left;
+    }
+
+    .promo-whatsapp-btn{
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* =========================
+       CONTACTO
+    ========================= */
+
+    .contact-info-box,
+    .map-container{
+        padding: 20px;
+    }
+
+    .contact-link,
+    .contact-item > div{
+        padding: 15px;
+    }
+
+    /* =========================
+       MAPA
+    ========================= */
+
+    .map-responsive{
+        height: 300px;
+    }
+
+    /* =========================
+       CATEGORÍAS
+    ========================= */
+
+    .menu-card{
+        height: 380px;
+    }
+
+    .menu-overlay h3{
+        font-size: 1.3rem;
+    }
+
+    /* =========================
+       CARRITO
+    ========================= */
+
+    .cart-sidebar{
+        width: 100%;
+        right: -100%;
+    }
+
+    .cart-sidebar.active{
+        right: 0;
+    }
+
+    /* =========================
+       BOTÓN WHATSAPP
+    ========================= */
+
+    .whatsapp-float[data-whatsapp-float]{
+        width: 58px !important;
+        height: 58px !important;
+
+        right: 18px !important;
+        bottom: 18px !important;
+    }
+
+    .whatsapp-float[data-whatsapp-float] i{
+        font-size: 1.9rem;
+    }
+
+    /* =========================
+       BOTÓN CARRITO
+    ========================= */
+
+    .cart-float{
+        width: 55px;
+        height: 55px;
+
+        right: 18px;
+        bottom: 90px;
+    }
+
+    .cart-float i{
+        font-size: 1.4rem;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    .footer{
+        text-align: center;
+    }
+
+    .social-links{
+        justify-content: center;
+    }
+
+}
+
+
+/* ===============================================
+   EXTRA SMALL DEVICES
+=============================================== */
+
+@media (max-width: 480px){
+
+    .hero-title{
+        font-size: 2rem;
+    }
+
+    .section-title-pink{
+        font-size: 1.7rem;
+    }
+
+    .product-image{
+        height: 240px;
+    }
+
+    .gallery-item{
+        height: 250px;
+    }
+
+    .menu-card{
+        height: 320px;
+    }
+
+    .promo-banner h2{
+        font-size: 18px;
+    }
+
+    .promo-banner p,
+    .promo-banner li{
+        font-size: 13px;
+    }
+
+}
