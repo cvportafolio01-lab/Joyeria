@@ -104,7 +104,29 @@ const VENDORS = {
             "https://www.google.com/maps?q=Zapopan,Jalisco&output=embed",
 
         title: "Joyería Argento | Maribel Mendez Escalante"
+    },
+    lluviany: {
+
+        businessName: " Lluviany García López ",
+        owner: "Socia: 1158",
+
+        phone: "7441-70-64-66  ",
+        whatsapp: "5217441706466 ",
+        instagram: "",
+        facebook: "https://www.facebook.com/share/1Akz8Puqy7/",
+        tiktok: "",
+
+        address: "Acapulco, Gro., Mexico",
+        deliveryZone: "Zona Acapulco",
+
+        mapsUrl: "https://maps.google.com/?q=Acapulco,Guerrero",
+
+mapsEmbed:
+    "https://www.google.com/maps?q=Acapulco,Guerrero&output=embed",
+
+        title: "Joyería Argento | Lluviany García López"
     }
+
 
 };
 
