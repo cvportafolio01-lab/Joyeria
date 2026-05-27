@@ -1,45 +1,49 @@
 /* ===============================================
-   MC LASHES AND BEAUTY - Pink Theme
-   Color Palette: Pink, Fuchsia, Rose Gold, White
+   ARGENTO OFFICIAL BRAND THEME
+   Corporate Colors & Typography
    =============================================== */
 :root {
 
     /* ===========================================
-       ARGENTO - LUXURY JEWELRY COLOR PALETTE
-       Navy Blue • Aqua • Turquoise • Silver
+       ARGENTO OFFICIAL COLORS
        =========================================== */
 
-    /* Primary Blues */
-    --color-navy: #06152b;
-    --color-navy-light: #0d2342;
-    --color-deep-blue: #102c54;
-    --color-midnight: #040b16;
+    /* Primary Corporate Blues */
+    --color-navy: #0C2340;
+    --color-navy-light: #16395f;
+    --color-deep-blue: #002B49;
+    --color-midnight: #00182c;
 
-    /* Aqua / Emerald Jewel Tones */
-    --color-aqua: #56e0dc;
-    --color-aqua-light: #9cf7f4;
-    --color-turquoise: #39cfd1;
-    --color-mint: #7ff5ee;
-
-    /* Silver / Metallic */
-    --color-silver: #dfe7ef;
+    /* Silver / Neutral */
+    --color-silver: #D9E1E2;
     --color-silver-dark: #aeb8c5;
-    --color-platinum: #f8fbff;
+    --color-platinum: #f4f7f8;
+
+    /* Accent Blues */
+    --color-aqua: #3e5f82;
+    --color-aqua-light: #6e8cad;
+    --color-turquoise: #28496b;
+    --color-mint: #8ca9c7;
 
     /* Neutral Colors */
     --color-white: #ffffff;
     --color-black: #000000;
     --color-dark: #101820;
-    --color-gray: #7b8794;
+    --color-gray: #6f7c86;
     --color-light-gray: #eef3f7;
 
     /* ===========================================
        TYPOGRAPHY
        =========================================== */
 
-    --font-heading: 'Playfair Display', serif;
-    --font-elegant: 'Cormorant Garamond', serif;
-    --font-body: 'Poppins', sans-serif;
+    /* CORPORATE */
+    --font-heading: 'Rexton', serif;
+
+    /* SECONDARY */
+    --font-elegant: 'Acumin Variable', sans-serif;
+
+    /* BODY */
+    --font-body: 'Calibri', 'Acumin Variable', sans-serif;
 
     /* ===========================================
        TRANSITIONS & EFFECTS
@@ -50,12 +54,12 @@
 
     /* Shadows */
     --shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.15);
-    --shadow-aqua: 0 10px 35px rgba(86, 224, 220, 0.25);
+
+    --shadow-aqua: 0 10px 35px rgba(12, 35, 64, 0.25);
 }
 
 /* ===============================================
-   ARGENTO JEWELRY - Luxury Ocean Blue Theme
-   Inspired by Navy Blue, Aqua, Turquoise & Silver
+   ARGENTO JEWELRY OFFICIAL THEME
    =============================================== */
 
 /* ===============================================
@@ -88,21 +92,24 @@ section {
     padding: 100px 0;
 }
 
+/* LIGHT SECTION */
 .bg-light-pink {
-    background-color: #f5fbff;
+    background-color: #f7f9fb;
 }
 
+/* CORPORATE GRADIENT */
 .bg-pink-gradient {
     background: linear-gradient(
         135deg,
-        #eef8ff 0%,
-        rgba(86, 224, 220, 0.12) 100%
+        #f4f7f8 0%,
+        rgba(12, 35, 64, 0.08) 100%
     );
 }
 
 /* ===============================================
    Typography
    =============================================== */
+
 h1,
 h2,
 h3,
@@ -115,13 +122,14 @@ h6 {
     color: var(--color-dark);
 }
 
+/* MAIN TITLES */
 .section-title-pink {
     font-size: 3.5rem;
 
     background: linear-gradient(
         135deg,
-        var(--color-aqua) 0%,
-        var(--color-turquoise) 100%
+        var(--color-deep-blue) 0%,
+        var(--color-navy) 100%
     );
 
     -webkit-background-clip: text;
@@ -131,30 +139,33 @@ h6 {
     margin-bottom: 1rem;
 }
 
+/* SUBTITLES */
 .section-subtitle {
     color: var(--color-gray);
     font-size: 1.2rem;
     font-weight: 300;
+    font-family: var(--font-elegant);
 }
 
+/* ACCENT TEXT */
 .text-pink {
-    color: var(--color-aqua) !important;
+    color: var(--color-deep-blue) !important;
 }
 
+/* DECORATION LINE */
 .title-decoration-pink {
     width: 80px;
     height: 4px;
 
     background: linear-gradient(
         90deg,
-        var(--color-aqua),
-        var(--color-turquoise)
+        var(--color-deep-blue),
+        var(--color-navy)
     );
 
     margin: 1rem 0;
     border-radius: 2px;
 }
-
 /* ===============================================
    WhatsApp Floating Button
    =============================================== */
@@ -1830,7 +1841,7 @@ h6 {
 ========================= */
 
 .feature-box{
-    background: #fff;
+    background: #ffffff;
     padding: 30px 25px;
     border-radius: 20px;
     transition: all .35s ease;
@@ -1840,7 +1851,7 @@ h6 {
     overflow: hidden;
 }
 
-/* Línea rosa animada */
+/* Línea corporativa azul */
 .feature-box::before{
     content: "";
     position: absolute;
@@ -1848,14 +1859,14 @@ h6 {
     left: -100%;
     width: 100%;
     height: 4px;
-    background: linear-gradient(90deg, #ff4fa0, #ff9ac7);
+    background: linear-gradient(90deg, #002B49, #0C2340);
     transition: .4s ease;
 }
 
 /* Hover card */
 .feature-box:hover{
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 18px 40px rgba(255, 79, 160, .20);
+    box-shadow: 0 18px 40px rgba(0, 43, 73, .20);
 }
 
 /* Hover línea */
@@ -1871,7 +1882,7 @@ h6 {
 /* Hover ícono */
 .feature-box:hover i{
     transform: scale(1.2) rotate(8deg);
-    color: #ff4fa0;
+    color: #002B49;
 }
 
 /* Títulos */
@@ -1879,35 +1890,36 @@ h6 {
     font-weight: 700;
     margin-bottom: 12px;
     transition: .3s ease;
+    color: #0C2340;
 }
 
 /* Hover título */
 .feature-box:hover h5{
-    color: #ff4fa0;
+    color: #002B49;
 }
 
 /* Texto */
 .feature-box p{
-    color: #666;
+    color: #5f6b76;
     font-size: 15px;
     line-height: 1.6;
 }
 
 /* Tag superior */
 .award-tag{
-    background: linear-gradient(90deg, #ff4fa0, #ff84b7);
-    color: white;
+    background: linear-gradient(90deg, #002B49, #0C2340);
+    color: #D9E1E2;
     padding: 10px 20px;
     border-radius: 50px;
     font-weight: 600;
-    box-shadow: 0 8px 20px rgba(255,79,160,.25);
+    box-shadow: 0 8px 20px rgba(0,43,73,.25);
     transition: .3s ease;
 }
 
 /* Hover tag */
 .award-tag:hover{
     transform: scale(1.05);
-    box-shadow: 0 12px 25px rgba(255,79,160,.35);
+    box-shadow: 0 12px 25px rgba(0,43,73,.35);
 }
 
 /* Título principal */
@@ -1918,15 +1930,15 @@ h6 {
 /* Hover título */
 .section-title-pink:hover{
     letter-spacing: 1px;
-    color: #ff4fa0;
+    color: #002B49;
 }
 
-/* Decoración rosa */
+/* Decoración azul */
 .title-decoration-pink{
     width: 90px;
     height: 5px;
     border-radius: 20px;
-    background: linear-gradient(90deg, #ff4fa0, #ff84b7);
+    background: linear-gradient(90deg, #002B49, #0C2340);
     margin-bottom: 25px;
     transition: .35s ease;
 }
@@ -1935,15 +1947,6 @@ h6 {
 .section-title-pink:hover + .title-decoration-pink{
     width: 130px;
 }
-
-
-
-
-
-
-
-
-
 
 /* ===============================================
    MENU CATEGORÍAS PREMIUM
@@ -2043,15 +2046,17 @@ h6 {
 
     background: linear-gradient(
         135deg,
-        #ff4fa3,
-        #ff87c5
+        #002B49,
+        #0C2340
     );
 
-    color: white;
+    color: #D9E1E2;
 
     text-decoration: none;
 
     font-weight: 600;
+
+    font-family: "Acumin Variable", Calibri, sans-serif;
 
     transition: .3s ease;
 }
@@ -2059,18 +2064,20 @@ h6 {
 .menu-btn:hover{
     transform: scale(1.06);
 
-    background: white;
+    background: #D9E1E2;
 
-    color: #ff4fa3;
+    color: #002B49;
 }
 
 /* TITULOS */
 .categorias-menu .section-title-pink{
-    color: white;
+    color: #0C2340;
+    font-family: "Rexton", serif;
 }
 
 .categorias-menu .section-subtitle{
-    color: rgba(255,255,255,0.75);
+    color: rgba(0, 43, 73, 0.75);
+    font-family: "Acumin Variable", Calibri, sans-serif;
 }
 
 /* RESPONSIVE */
@@ -2082,10 +2089,11 @@ h6 {
 
     .menu-overlay h3{
         font-size: 1.5rem;
+        font-family: "Rexton", serif;
+        color: #D9E1E2;
     }
 
 }
-
 
 
 
