@@ -15,9 +15,9 @@ const VENDORS = {
     address: "Zona Metropolitana de Guadalajara, Jalisco, México",
     deliveryZone: "Zona Metropolitana de Guadalajara",
 
-    mapsUrl: "",
+    mapsUrl: "https://maps.google.com/?q=Zapopan,Jalisco",
 
-    mapsEmbed: "",
+    mapsEmbed: "https://www.google.com/maps?q=Zapopan,Jalisco&output=embed",
 
     title: "Joyería Argento | Alma Gomez"
 },
