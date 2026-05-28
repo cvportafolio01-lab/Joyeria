@@ -23,25 +23,24 @@ const VENDORS = {
 },
     angelica: {
 
-        businessName: "Angelica Rodríguez Dominguez",
-        owner: "Socia: 1584",
+    businessName: "Angelica Rodríguez Domínguez",
+    owner: "Socia: 1584",
 
-        phone: "",
-        whatsapp: "5214443868027",
-        instagram: "",
-        facebook: "",
-        tiktok: "",
+    phone: "",
+    whatsapp: "5214443868027",
+    instagram: "",
+    facebook: "",
+    tiktok: "",
 
-        address: "Zapopan, Jalisco",
-        deliveryZone: "Guadalajara",
+    address: "San Luis Potosí, San Luis Potosí",
+    deliveryZone: "San Luis Potosí y zona metropolitana",
 
-        mapsUrl: "https://maps.google.com/?q=Zapopan,Jalisco",
+    mapsUrl: "https://www.google.com/maps?q=San%20Luis%20Potosi",
 
-        mapsEmbed:
-            "https://www.google.com/maps?q=Zapopan,Jalisco&output=embed",
+    mapsEmbed: "https://www.google.com/maps?q=San%20Luis%20Potosi&output=embed",
 
-        title: "Joyería Argento | Angelica Rodríguez"
-    },
+    title: "Joyería Argento | Angelica Rodríguez"
+},
     maria: {
 
         businessName: "María Carmona",
@@ -63,27 +62,26 @@ const VENDORS = {
 
         title: "Joyería Argento | María Carmona"
     },
-     elizabeth: {
+    elizabeth: {
 
-        businessName: " Elizabeth Sánchez Ledezma",
-        owner: "Socia: 1315",
+    businessName: "Elizabeth Sánchez Ledezma",
+    owner: "Socia: 1315",
 
-        phone: "4421240072",
-        whatsapp: "5214427748638",
-        instagram: "",
-        facebook: "",
-        tiktok: "",
+    phone: "4421240072",
+    whatsapp: "5214427748638",
+    instagram: "",
+    facebook: "",
+    tiktok: "",
 
-        address: "Zapopan, Jalisco",
-        deliveryZone: "Guadalajara",
+    address: "Querétaro, Querétaro",
+    deliveryZone: "Querétaro y zona metropolitana",
 
-        mapsUrl: "https://maps.google.com/?q=Zapopan,Jalisco",
+    mapsUrl: "https://www.google.com/maps?q=Queretaro,Queretaro",
 
-        mapsEmbed:
-            "https://www.google.com/maps?q=Zapopan,Jalisco&output=embed",
+    mapsEmbed: "https://www.google.com/maps?q=Queretaro,Queretaro&output=embed",
 
-        title: "Joyería Argento | Elizabeth Sánchez Ledezma"
-    },
+    title: "Joyería Argento | Elizabeth Sánchez Ledezma"
+},
      maribel: {
 
         businessName: " Maribel Mendez Escalante ",
