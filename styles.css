@@ -553,7 +553,7 @@ h6 {
         var(--color-turquoise) 100%
     );
 
-    color: var(--color-navy);
+    color: #fff;
 
     border: none;
 
@@ -579,7 +579,7 @@ h6 {
 
     box-shadow: 0 8px 25px rgba(86, 224, 220, 0.5);
 
-    color: var(--color-navy);
+    color: #fff;
 }
 
 .btn-outline-pink {
