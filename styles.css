@@ -543,6 +543,50 @@ h6 {
     width: 60%;
 }
 
+
+
+
+
+.fa-gem{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 900;
+
+    /* borde ligero tipo "cristal" sin borroso */
+    -webkit-text-stroke: 0.3px rgba(255,255,255,0.6);
+
+    transition: 0.3s ease;
+}
+
+.navbar-brand:hover .fa-gem{
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.brand-text{
+    color: #ffffff;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+    text-shadow:
+        0 0 1px rgba(255,255,255,0.7);
+
+    transition: 0.3s ease;
+}
+
+.brand-text:hover{
+    color: #fff;
+    transform: scale(1.02);
+}
 /* ===============================================
    Buttons
    =============================================== */
@@ -2291,23 +2335,30 @@ a{
 @media (max-width: 768px) {
 
     /* =========================
-       PORTADA CENTRADA
+       PORTADA CENTRADA (MÓVIL)
     ========================= */
 
     .portada-simple{
-        min-height: 85vh;
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+
+        min-height: 85vh;
+        padding: 20px;
+        overflow: hidden;
     }
 
     .portada-principal{
         max-width: 100%;
         max-height: 70vh;
 
-        margin: 0 auto;
+        width: auto;
+        height: auto;
 
         display: block;
+        margin: 0 auto;
 
         transform: none !important;
     }
@@ -2315,6 +2366,26 @@ a{
     .portada-principal:hover{
         transform: scale(1.02) !important;
     }
+
+    /* textos centrados */
+    .texto-marca,
+    .texto-catalogo{
+        position: relative; /* evita que se vayan a la izquierda */
+        left: auto;
+        transform: none;
+
+        text-align: center;
+        width: 100%;
+    }
+
+    .texto-marca{
+        font-size: 2.5rem;
+    }
+
+    .texto-catalogo{
+        font-size: 1.5rem;
+    }
+}
 
     /* =========================
        HERO
@@ -2451,17 +2522,16 @@ a{
         height: 300px;
     }
 
-    /* =========================
-       CATEGORÍAS
-    ========================= */
+
+
+/* SOLO CELULAR */
+@media (max-width: 768px){
 
     .menu-card{
-        height: 380px;
+        height: 550px;
     }
 
-    .menu-overlay h3{
-        font-size: 1.3rem;
-    }
+}
 
     /* =========================
        CARRITO
@@ -2520,7 +2590,7 @@ a{
         justify-content: center;
     }
 
-}
+
 
 
 /* ===============================================
