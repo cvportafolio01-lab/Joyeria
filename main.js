@@ -352,7 +352,7 @@ function checkoutWhatsApp() {
     msg += `Envío: $${shipping}\n`;
     msg += `TOTAL: $${total}\n`;
 
-    msg += `\n🎉 Recuerda: tienes 30% de descuento si te registras antes de pagar`;
+    msg += `\n🎉 Recuerda: que puedes tener hasta un 30% de descuento si te afilias a argento.`;
 
     /* =========================
        ABRIR WHATSAPP
