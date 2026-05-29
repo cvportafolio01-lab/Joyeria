@@ -52,14 +52,13 @@ const VENDORS = {
         facebook: "",
         tiktok: "",
 
-        address: "Zapopan, Jalisco",
-        deliveryZone: "Guadalajara",
+        address: "Ciudad de México",
+        deliveryZone: "Ciudad de México",
 
-        mapsUrl: "https://maps.google.com/?q=Zapopan,Jalisco",
+        mapsUrl: "https://maps.google.com/?q=Ciudad+de+México",
 
         mapsEmbed:
-            "https://www.google.com/maps?q=Zapopan,Jalisco&output=embed",
-
+        "https://www.google.com/maps?q=Ciudad+de+México&output=embed",
         title: "Joyería Argento | María Carmona"
     },
     elizabeth: {
@@ -93,13 +92,13 @@ const VENDORS = {
         facebook: "https://www.facebook.com/share/17em9ys1fT/",
         tiktok: "",
 
-        address: "Zapopan, Jalisco",
-        deliveryZone: "Guadalajara",
+        address: "Hidalgo, México",
+        deliveryZone: "Hidalgo",
 
-        mapsUrl: "https://maps.google.com/?q=Zapopan,Jalisco",
+        mapsUrl: "https://maps.google.com/?q=Hidalgo,México",
 
         mapsEmbed:
-            "https://www.google.com/maps?q=Zapopan,Jalisco&output=embed",
+        "https://www.google.com/maps?q=Hidalgo,México&output=embed",
 
         title: "Joyería Argento | Maribel Mendez Escalante"
     },
