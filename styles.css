@@ -2721,3 +2721,37 @@ a{
     }
 
 }
+
+
+@media (max-width: 768px){
+
+    /* =========================
+       TARJETAS
+    ========================= */
+
+    .menu-card{
+        height: 555px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .menu-card img{
+        width: 90%;
+        height: 85%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* =========================
+       TEXTO + BOTÓN (OVERLAY)
+    ========================= */
+
+    .menu-overlay{
+        position: absolute;
+        bottom: 5px;   /* 🔥 aquí lo bajamos */
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+}
