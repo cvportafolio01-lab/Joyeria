@@ -17,7 +17,7 @@ const VENDORS = {
 
     mapsUrl: "https://maps.google.com/?q=México",
 
-mapsEmbed: "https://www.google.com/maps?q=México&output=embed"
+mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
 
     title: "Joyería Argento | Alma Gomez"
 },
@@ -57,7 +57,7 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed"
 
         mapsUrl: "https://maps.google.com/?q=México",
 
-mapsEmbed: "https://www.google.com/maps?q=México&output=embed"
+mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
         title: "Joyería Argento | María Carmona"
     },
     elizabeth: {
