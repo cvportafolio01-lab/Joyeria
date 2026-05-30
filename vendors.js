@@ -103,7 +103,7 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
     },
     lluviany: {
 
-        businessName: " Lluviany García López ",
+        businessName: " Lluviany Añorve ",
         owner: "Socia: 1158",
 
         phone: "7441-70-64-66  ",
@@ -120,7 +120,7 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
 mapsEmbed:
     "https://www.google.com/maps?q=Acapulco,Guerrero&output=embed",
 
-        title: "Joyería Argento | Lluviany García López"
+        title: "Joyería Argento | Lluviany Añorve"
     }
 
 
