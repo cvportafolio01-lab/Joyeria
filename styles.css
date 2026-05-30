@@ -286,6 +286,10 @@ h6 {
     border: 2px solid var(--color-aqua);
 }
 
+
+
+
+
 /* ===============================================
    CART SIDEBAR BASE (FIX PRINCIPAL)
 =============================================== */
@@ -969,10 +973,10 @@ h6 {
 
 
 
-/* ===============================================
-   promocion  de la tarjeta 
-   =============================================== */
 
+/* ===============================================
+   PROMOCIÓN TARJETA (CENTRADA CORREGIDA)
+=============================================== */
 
 .promo-banner {
     background: linear-gradient(135deg, #0b1b3a, #142a52);
@@ -983,13 +987,17 @@ h6 {
 
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
 
-    max-width: 850px;
-    margin: 25px auto;
+    width: 100%;           /* 🔥 importante */
+    max-width: 850px;      /* límite del diseño */
+
+    margin: 25px auto;     /* centrado horizontal real */
 
     font-family: 'Segoe UI', sans-serif;
 
     position: relative;
     overflow: hidden;
+
+    display: block;        /* 🔥 asegura comportamiento normal */
 }
 
 /* brillo sutil animado */
@@ -1067,7 +1075,6 @@ h6 {
 .promo-whatsapp-btn i {
     margin-right: 8px;
 }
-
 
 /* ===============================================
    PRODUCT CARDS
