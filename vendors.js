@@ -15,9 +15,9 @@ const VENDORS = {
     address: "Zona Metropolitana de Guadalajara, Jalisco, México",
     deliveryZone: "Zona Metropolitana de Guadalajara",
 
-    mapsUrl: "https://maps.google.com/?q=Zapopan,Jalisco",
+    mapsUrl: "https://maps.google.com/?q=México",
 
-    mapsEmbed: "https://www.google.com/maps?q=Zapopan,Jalisco&output=embed",
+mapsEmbed: "https://www.google.com/maps?q=México&output=embed"
 
     title: "Joyería Argento | Alma Gomez"
 },
@@ -55,10 +55,9 @@ const VENDORS = {
         address: "Ciudad de México",
         deliveryZone: "Ciudad de México",
 
-        mapsUrl: "https://maps.google.com/?q=Ciudad+de+México",
+        mapsUrl: "https://maps.google.com/?q=México",
 
-        mapsEmbed:
-        "https://www.google.com/maps?q=Ciudad+de+México&output=embed",
+mapsEmbed: "https://www.google.com/maps?q=México&output=embed"
         title: "Joyería Argento | María Carmona"
     },
     elizabeth: {
