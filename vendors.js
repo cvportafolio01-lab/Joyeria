@@ -111,7 +111,7 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
 
         businessName: " Lluviany Añorve ",
         owner: "Socia: 1158",
-        photo: "imagenes/lluviany.jpeg",
+        photo: "imagenes/lluviany2.jpeg",
         phone: "7441-70-64-66  ",
         whatsapp: "5217441706466 ",
         instagram: "",
