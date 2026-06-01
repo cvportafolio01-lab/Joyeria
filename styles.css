@@ -2762,3 +2762,50 @@ a{
     }
 
 }
+
+.vendor-card{
+    text-align:center;
+    padding:20px;
+}
+
+.vendor-card img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:100%;
+    
+    box-shadow:0 4px 20px rgb(247, 248, 248);
+    object-position: center 43%;
+     
+}
+
+
+
+
+
+/* CONTENEDOR DE TEXTO */
+.vendor-info{
+    margin-top:12px;
+}
+
+/* NOMBRE (elegante para mujeres) */
+.vendor-info h3{
+    font-family: 'Georgia', serif;
+    font-size:22px;
+    color:#0b1f3a; /* azul marino */
+    margin:5px 0;
+    letter-spacing:0.5px;
+}
+
+/* CÓDIGO (SOCIA) */
+.vendor-code{
+    font-family: Arial, sans-serif;
+    font-size:14px;
+    color:#1f3b63; /* azul más suave */
+    letter-spacing:1px;
+    background:#eef3fb;
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:20px;
+    margin-top:5px;
+}

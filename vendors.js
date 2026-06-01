@@ -11,6 +11,8 @@ const VENDORS = {
     instagram: "",
     facebook: "",
     tiktok: "",
+   
+    photo: "imagenes/alma.jpeg",
 
     address: "Zona Metropolitana de Guadalajara, Jalisco, México",
     deliveryZone: "Zona Metropolitana de Guadalajara",
@@ -25,6 +27,7 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
 
     businessName: "Angelica Rodríguez Domínguez",
     owner: "Socia: 1584",
+    photo: "imagenes/angelica.jpeg",
 
     phone: "",
     whatsapp: "5214443868027",
@@ -45,6 +48,8 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
 
         businessName: "María Carmona",
         owner: "Socia: 1590",
+         photo: "imagenes/maria.jpeg",
+
 
         phone: "5630286556",
         whatsapp: "5630286556",
@@ -64,6 +69,7 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
 
     businessName: "Elizabeth Sánchez Ledezma",
     owner: "Socia: 1315",
+    photo: "imagenes/elizabeth.jpeg",
 
     phone: "4421240072",
     whatsapp: "5214427748638",
@@ -84,7 +90,7 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
 
         businessName: " Maribel Mendez Escalante ",
         owner: "Socia: 1347",
-
+        photo: "imagenes/maribel.jpeg",
         phone: "5613080268 ",
         whatsapp: "5215613080268",
         instagram: "",
@@ -105,7 +111,7 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
 
         businessName: " Lluviany Añorve ",
         owner: "Socia: 1158",
-
+        photo: "imagenes/lluviany.jpeg",
         phone: "7441-70-64-66  ",
         whatsapp: "5217441706466 ",
         instagram: "",

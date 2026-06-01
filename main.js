@@ -263,7 +263,7 @@ function updateCartDisplay() {
         0
     );
 
-    const shipping = subtotal > 0 ? 200 : 0;
+    const shipping = subtotal > 0 ? 140 : 0;
 
     const total = subtotal + shipping;
 
@@ -343,7 +343,7 @@ function checkoutWhatsApp() {
     );
 
     /* ENVÍO */
-    const shipping = subtotal > 0 ? 200 : 0;
+    const shipping = subtotal > 0 ? 140 : 0;
 
     /* TOTAL */
     const total = subtotal + shipping;
@@ -427,6 +427,17 @@ function applyVendorData() {
     const v = window.VENDOR;
     if (!v) return;
 
+
+    /* =========================
+       FOTO DE LA VENDEDORA
+    ========================= */
+
+    const vendorPhoto = document.getElementById("vendor-photo");
+
+    if (vendorPhoto) {
+        vendorPhoto.src = v.photo || "imagenes/default.webp";
+        vendorPhoto.alt = v.businessName;
+    }
     /* =========================
        PAGE TITLE (SEO)
     ========================= */
@@ -437,6 +448,8 @@ function applyVendorData() {
         title.textContent = `${v.businessName} | ${v.title || ""}`;
     }
 
+
+    
     /* =========================
        TEXT BINDINGS
     ========================= */
@@ -670,3 +683,5 @@ function clearCart() {
 /* =========================================
    FIN DEL SISTEMA
 ========================================= */
+
+
