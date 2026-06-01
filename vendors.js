@@ -69,7 +69,7 @@ mapsEmbed: "https://www.google.com/maps?q=México&output=embed",
 
     businessName: "Elizabeth Sánchez Ledezma",
     owner: "Socia: 1315",
-    photo: "imagenes/elizabeth.jpeg",
+    photo: "imagenes/angelica.jpeg",
 
     phone: "4421240072",
     whatsapp: "5214427748638",
