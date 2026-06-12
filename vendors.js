@@ -127,7 +127,29 @@ mapsEmbed:
     "https://www.google.com/maps?q=Acapulco,Guerrero&output=embed",
 
         title: "Joyería Argento | Lluviany Añorve"
+    }, 
+    Maraly_Chavez: {
+
+        businessName: " Maraly Chávez ",
+        owner: "Consultor: 1361",
+        photo: "imagenes/maralychavez.jpeg",
+        phone: "3921233827  ",
+        whatsapp: "5213921233827 ",
+        instagram: "",
+        facebook: "",
+        tiktok: "",
+
+        address: "",
+        deliveryZone: "",
+
+        mapsUrl: "",
+
+mapsEmbed:
+    "",
+
+        title: "Joyería Argento | Maraly Chávez"
     }
+
 
 
 };
