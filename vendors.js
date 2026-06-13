@@ -148,6 +148,27 @@ mapsEmbed:
     "",
 
         title: "Joyería Argento | Maraly Chávez"
+    },
+    martiniana_bazan: {
+
+        businessName: " Martiniana Bazán ",
+        owner: "Consultor: 1361",
+        photo: "imagenes/martiniana_bazan.jpeg",
+        phone: "7443776736  ",
+        whatsapp: "5217443776736 ",
+        instagram: "",
+        facebook: "",
+        tiktok: "",
+
+        address: "",
+        deliveryZone: "",
+
+        mapsUrl: "",
+
+mapsEmbed:
+    "",
+
+        title: "Joyería Argento | Martiniana Bazán"
     }
 
 
