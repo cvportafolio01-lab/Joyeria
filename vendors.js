@@ -152,7 +152,7 @@ mapsEmbed:
     martiniana_bazan: {
 
         businessName: " Martiniana Bazán ",
-        owner: "Consultor: 1361",
+        owner: "Consultor: 1201",
         photo: "imagenes/martiniana_bazan.jpeg",
         phone: "7443776736  ",
         whatsapp: "5217443776736 ",
