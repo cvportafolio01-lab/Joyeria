@@ -354,7 +354,7 @@ function checkoutWhatsApp() {
 
     msg += `\n🎉 Recuerda: que puedes tener hasta un 30% de descuento si te afilias a argento.`;
 
-    /* =========================
+    /* const url = https://wa.me/${v.whatsapp}?text=${encodeURIComponent(msg)}; window.open(url, "_blank");=========================
        ABRIR WHATSAPP
     ========================= */
     const phone = String(v.whatsapp).replace(/\D/g, '');
