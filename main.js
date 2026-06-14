@@ -357,8 +357,10 @@ function checkoutWhatsApp() {
     /* =========================
        ABRIR WHATSAPP
     ========================= */
-    const url = `https://wa.me/${v.whatsapp}?text=${encodeURIComponent(msg)}`;
-    window.open(url, "_blank");
+    const phone = String(v.whatsapp).trim();
+
+const url = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
+window.open(url, "_blank");
 
     /* =========================
        LIMPIAR CARRITO DESPUÉS DE ENVIAR
