@@ -357,10 +357,14 @@ function checkoutWhatsApp() {
     /* =========================
        ABRIR WHATSAPP
     ========================= */
-    const phone = String(v.whatsapp).trim();
+    const phone = String(v.whatsapp).replace(/\D/g, '');
 
-const url = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
-window.open(url, "_blank");
+const encodedMsg = encodeURIComponent(msg);
+
+// WhatsApp Web directo (evita resolve/deeplink)
+const url = `https://web.whatsapp.com/send?phone=${phone}&text=${encodedMsg}`;
+
+window.location.href = url;
 
     /* =========================
        LIMPIAR CARRITO DESPUÉS DE ENVIAR
